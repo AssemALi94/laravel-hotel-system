@@ -1,0 +1,38 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// AdminLTE
+@import "~admin-lte/build/scss/AdminLTE.scss";
+
+
+// Fontawesome
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/regular.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+// Sweet alert
+@import '~sweetalert2/src/sweetalert2';
+
+// icheck bootstrap
+@import '~icheck-bootstrap/icheck-bootstrap.min.css';
+
+// select2
+@import '~select2/dist/css/select2.min.css';
+
+// DataTables
+@import "~datatables.net-bs4/css/dataTables.bootstrap4.css";
+@import "~datatables.net-buttons-bs4/css/buttons.bootstrap4.css";
+
+
+
+
+// Custom scss
+@import "custom";
+

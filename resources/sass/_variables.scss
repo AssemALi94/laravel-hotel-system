@@ -1,0 +1,48 @@
+$enable-deprecation-messages: false;
+
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: "Nunito", sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+$theme-colors: (
+    primary: #8f46b9,
+    secondary: #272b30,
+    warning: #ff851b,
+    l-secondary: #666e77,
+);
+:root {
+    --primary: map-get($theme-colors, primary);
+    --secondary: map-get($theme-colors, secondary);
+}
+
+$fa-font-path: "../webfonts";
+
+::-webkit-scrollbar-thumb {
+    background-color: map-get($theme-colors, secondary);
+    box-shadow: inset 0 0 0 1px lighten(map-get($theme-colors, secondary), 12%);
+    border: 0.05rem solid transparent;
+    &:hover {
+        background-color: lighten(map-get($theme-colors, secondary), 10%);
+    }
+}
+
+::selection {
+    background: lighten(map-get($theme-colors, primary), 40%);
+    color: var(--secondary);
+}

@@ -1,0 +1,30 @@
+@import "components/switch";
+
+
+
+
+// main-sidebar
+
+.main-sidebar {
+    .brand-image{
+        float: none;
+    }
+
+
+    .user-panel{
+        .info{
+            i{
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+
+.currency{
+    &:after{
+        content: " $ "
+    }
+}
+
+
